@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header start */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(19, 152, 185);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+}
+.header p{
+    font-size: 30px;
+}
+ 
+ 
+ .header p:hover{
+    color: white;
+    cursor: pointer;
+}
+.header ul{ 
+    font-size: 20px;
+}
+.header ul li{
+display: inline-block;
+padding:  4px 20px 15px 25px;
+cursor: pointer;
+}
+.header ul li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+/* End header  */
+
+
+
+/* herow start */
+.herow{
+    height: 540px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 160px ;
+    font-size: 30px;
+}
+.herow h1{
+    padding: 20px;
+    color: rgb(19, 152, 185);
+}
+.herow p{
+    color: #fff;
+    padding-bottom: 30px;
+}
+.herow button{
+    font-size: 26px;
+    padding: 30px 70px;
+    background-color: rgb(19, 152, 185);
+    color: #fff;
+    border: none;
+}
+.herow button:hover{
+    background-color: #fff;
+    color: rgb(19, 152, 185);
+    cursor: pointer;
+    border: 1px solid rgb(19, 152, 185);
+    transition-duration: 1s;
+}
+.herow .butt{
+    background-color: #fff;
+    color: rgb(19, 152, 185);
+}
+.herow .butt:hover{
+    color: #fff;
+    background-color: rgb(19, 152, 185);
+    transition-duration: 1s;
+}
+/* End herow */
+
+
+
+/* feature start */
+.featur{
+    margin: 50px;
+    text-align: center; 
+} 
+.cart{
+    display: inline-block;
+    width: 230px;
+    margin: 30px;
+}
+.cart:hover{
+    background-color: rgba(238, 238, 238, 0.904);
+}
+.cart h2,p{
+    padding: 7px;
+}
+.featur-img{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 50px;
+    background: #0BA9F9;
+    border-radius: 50%;
+    display: inline-block; 
+}
+.featur-img:hover{
+    background-color: white;
+    color: #0BA9F9;
+  
+}
+/* End feature */
+
+
+/* Gallery start */
+.gallery{
+    height: 870px;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.904); ;
+
+}
+.gallery h1{
+    padding: 40px 0 8px 0;
+    text-align: center;
+}
+.gallery p{
+    text-align: center;
+    padding-bottom: 90px;;
+}
+   .gallery img{
+       display: inline-block;
+       height: 300px;
+       width: 300px;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition-duration: 1s;
+
+      
+   }
+   .gallery img:hover{
+       width: 280px;
+       height: 280px;
+       opacity: 0.5;
+       transition-duration: 1s;
+       cursor: pointer;
+   } 
+/* End Gallery */
+
+
+
+/* parallax start */
+.parallax{
+    height: 460px;
+    background-image: url(../img/3.png);
+    background-size: cover;
+    text-align: center;
+}
+.parallax h1{
+    text-align: center;
+    padding: 90px 0 10px 0;
+    font-size: 50px;
+    color: #fff;
+}
+.parallax p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.parallax button{
+    font-size: 26px;
+    padding: 25px 60px;
+    background-color: rgb(19, 152, 185);
+    color: #fff;
+    border: none;
+    margin-top: 70px;
+    border: 1px solid rgb(19, 152, 185);
+    
+}
+.parallax button:hover{
+    background-color: #fff;
+    color: rgb(19, 152, 185);
+    cursor: pointer;
+   
+    transition-duration: 1s;
+}
+.parallax .butt{
+    background-color: #fff;
+    color: rgb(19, 152, 185);
+    padding: 25px 80px;
+    border: 1px solid rgb(19, 152, 185);
+}
+.parallax .butt:hover{
+    color: #fff;
+    background-color: rgb(19, 152, 185);
+    transition-duration: 1s;
+  
+}
+/* End parallax */
+
+/* pricing table start */
+    .pricing{
+        text-align: center;
+    }
+.pricing h1{
+    text-align: center;
+    padding-top: 100px;
+}
+.pricing p{
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 60px;
+}
+.pricing .table{
+    padding: 10px;
+    display: inline-block;
+   
+}
+
+.pricing th,td{
+    border: 1px solid gray;
+    padding: 20px;
+    border: none;
+}
+.pricing table{
+    border-collapse: collapse;
+    width: 350px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.pricing tr:nth-child(odd){
+    background-color: #f7ffff;
+}
+.pricing th{
+    padding: 18px  90px;
+    background-color: orangered;
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #fff;
+}
+.pricing th:hover{
+    background-color: black;
+}
+.pricing td{
+    text-align: center;
+}
+.pricing .green{
+    background-color: rgb(63, 175, 100);
+}
+.pricing .orange{
+    background-color: orange;
+}
+.pricing a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 10px 19px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.pricing a:hover{
+    font-size: 14px;
+}
+.pricing .a{
+    background-color:  rgb(63, 175, 100); ;
+}
+.pricing .aa{
+    background-color: orange;
+}
+
+
+
+
+.jad{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.jad table{
+    margin: 10px;
+    width: 270px;
+}
+.jad th{
+    padding: 22px;
+    background-color: #0BA9F9;
+    border-radius: 10px;
+    font-size: 23px;
+    line-height: 30px;
+    color: #fff;
+}
+.jad th:hover{
+    background-color: black;
+}
+.jad .t{
+    background-color: red;
+}
+.jad a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0BA9F9;
+}
+.jad a:hover{
+    font-size: 14px;
+}
+.jad .a{
+    background-color: red;
+}
+
+
+
+/* End pricing table  */
+
+.all{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+/* our team start */
+
+
+.our{
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    margin-top: 70px;
+}
+.our h1{
+    text-align: center;
+    padding-top: 80px;
+}
+.our .p{
+    text-align: center;
+    line-height: 22px;
+}
+.our .img{
+display: inline-block;
+    text-align: center;
+    padding: 15px;
+    padding-top: 80px;
+    
+}
+.our .img h2{
+    padding: 10px;
+}
+.our .img h4{
+    padding: 7px;
+    color: #0BA9F9;
+}
+
+/* End our team  */
+
+
+/* contact us start */
+.contact{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/map.jpg);
+    display: flex;
+    margin-top: 100px;
+  
+}
+.contacts h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+.contacts .p{
+    text-align: center;
+    padding: 20px 0 100px 0px;
+    color: #53525f;
+    padding-left: 30px;
+}
+.contact .any{
+    padding: 300px 10px 0 60px;
+}
+.contact .any h3{
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+.contact .any p{
+    font-size: 17px;
+   color: #535252;
+}
+.contact .cont{
+    padding: 30px 10px 0 40px;
+}                  
+.contact .cont h2{
+    padding-bottom: 30px;
+}
+.contact .cont li{
+   list-style-type: none;
+   font-size: 15px;
+   color: #53525f;
+}
+
+.contact .form{
+    padding: 300px 0 0 55px;
+
+}
+.contact .form input{
+    padding: 7px;
+    border-radius: 4px;
+    border: .1px solid rgb(203, 201, 201);
+}
+.contact .form .btn{
+    padding: 15px;
+    font-size: 17px;
+    background-color: #0BA9F9;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 12px;
+}
+.contact .form textarea{
+    border: .1px solid rgb(203, 201, 201);
+}
+
+/* End contact us  */
+
+
+
+
+.bttn{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 60px;
+   
+}
+.bttn .btn{
+    padding: 20px 90px;
+    font-size: 30px;
+    background-color: #0BA9F9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.bttn .btn:hover{
+    background-color: #fff;
+    color: #0BA9F9;
+    border: .1px solid #0BA9F9;
+    transition-duration: 1s;
+}
+.bttn .but{
+    background-color: #fff;
+    color: #0BA9F9;
+    border: .1px solid #0BA9F9;
+
+    
+}
+.bttn .but:hover{
+    background-color: #0BA9F9;
+    color: #fff;
+    transition-duration: 1s;
+}
+
+.bttn ul li{
+    display: inline-block;
+    color: wheat;
+    padding: 40px 17px;
+}
+.bttn ul li a{
+    color: #bfbfbf;
+    font-size: 25px;
+}
+.bttn .fb:hover{
+    color: blue ;
+}
+.bttn .twitter:hover{
+    color: #0BA9F9;
+}
+.bttn .google:hover{
+    color: rgb(193, 60, 60);
+}
+.bttn .linkedin:hover{
+    color: rgb(0, 128, 255);
+}
+.bttn .youtube:hover{
+    color: brown;
+}
+.bttn .dribbble:hover{
+    color: brown;
+}
+.bttn .square:hover{
+color: brown;
+}
+.bttn .twitter:hover
+.bttn li{
+list-style-type: none;
+
+}
+.bttn li a{
+    text-decoration: none;
+    color: #0BA9F9;
+}
+
+
+
+/*  */
+
+
+
